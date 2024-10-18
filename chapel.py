@@ -11,6 +11,7 @@ WIDTH, HEIGHT = 400, 400
 surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
 
+
 # Set the background color to white
 ctx.set_source_rgb(1, 1, 1)  # White background
 ctx.paint()

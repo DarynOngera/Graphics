@@ -7,6 +7,7 @@ from helpers import draw_side_house, draw_tapered_tower_with_cross, draw_center
 # Example usage
 # Create an image surface
 WIDTH, HEIGHT = 400, 400
+
 surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
 
